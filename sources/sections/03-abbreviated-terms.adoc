@@ -1,0 +1,15 @@
+== Abbreviated Terms
+
+AECO:: Architecture, Engineering, Construction and Operations
+
+AI:: Artificial Intelligence
+
+BIM:: Building Information Modeling
+
+BIS:: Base Infrastructure Schemas
+
+DT:: Digital Twin
+
+IFC:: Industry Foundation Classes
+
+IoT:: Internet Of Things
