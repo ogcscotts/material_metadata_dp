@@ -5,13 +5,13 @@ Proper description of Materials used by Infrastructure projects is of great impo
 
 In this context, the focus on Materials goes well beyond the visualization aspect, which is typically referred to in terms of a _Texture_ or _Render Material_. It includes their semantical classifications as well as any applicable attribution needed for various use-cases during the lifecycle phases of an Infrastructure Asset.
 
-For example, material information is key during the Design phase of an asset, dictating an important input into the overall cost-estimation of a project. It also leads to the definition of a `Bill of materials`, a list of raw materials, components and instructions that will be used during the Construction phase afterwards. <<figure-1, Figure 1>> shows a small sample of a Bill of materials, including cost-estimation, of the Slabs and Beams in an Infrastructure project involving a Bridge's Deck. Note that Construction Materials such as Concrete or Reinforcement Steel are specified according to the corresponding classifications at Standards Organizations such as ASTM International.
+For example, material information is key during the Design phase of an asset, dictating an important input into the overall cost-estimation of a project. It also leads to the definition of a `Bill of materials`, a list of raw materials, components and instructions that will be used during the Construction phase afterwards. <<figure-1, Figure 1>> shows a small sample of a Bill of materials, including cost-estimation, of the Slabs and Beams in an Infrastructure project that involves a Bridge's Deck. Note that Construction Materials such as Concrete or Reinforcement Steel are specified according to the corresponding classifications at Standards Organizations such as ASTM International.
 
 [[figure-1]]
 .Sample of a Bill of Materials with Cost estimation
 image::figures/bill_of_materials.png[Bill of Materials]
 
-Furthermore, specialized material information is required for any kind of Physics-based Simulation, which are commonly used by Architects and Engineers at various lifecycle phases of an asset. They enable predictions on the behavior of an asset under certain conditions. Structural, Thermal or Hydraulic Analyses are examples of Physics-based Simulations. <<figure-2, Figure 2>> and <<figure-3, Figure 3>> depict attribution needed for each material in order to run Structural or Hydralic Analysis.
+Furthermore, specialized material information is required for any kind of Physics-based Simulations, which are commonly used by Architects and Engineers at various lifecycle phases of an asset. They enable predictions on their behavior under certain conditions. Structural, Thermal or Hydraulic Analyses are examples of Physics-based Simulations. <<figure-2, Figure 2>> and <<figure-3, Figure 3>> depict attribution needed for each material in order to run Structural or Hydralic Analyses.
 
 [[figure-2]]
 .Material properties needed for Structural Analysis
@@ -27,8 +27,8 @@ Advancements in AI and IoT have been raising the need for Infrastructure data to
 
 The following clauses present an overview of the state of the art of the modeling of materials in the international standards and software vendor technologies listed below:
 
-* IFC by buildingSMART
+* <<IFC>> by buildingSMART
 * CityGML by OGC
+* 3D Tiles by OGC
 * Base Infrastructure Schemas, <<BIS>>, by Bentley Systems
 * Granta product-line by ANSYS
-

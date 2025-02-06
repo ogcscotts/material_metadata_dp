@@ -23,13 +23,13 @@ image::figures/BIS_physicalmaterial_classes.png[BIS Physical Material classes]
 1. By capturing _well known names_ or _classification keys_ as `Codes` of the instances of any concrete `PhysicalMaterial` sub-class.
 1. By capturing _well known names_ or _classification keys_ in instances of the `Classification` class that are associated with corresponding `PhysicalMaterial` instances.
 
-Any instance in the <<BIS>> ecosystem, called _Element_, can optionally carry a human-friendly _business key_ that is unique in a certain context, and thus, it can be used as a form of identification. This special property of any <<BIS>> Element is called _Code_. The first approach can rely on the _Code_ property of `PhysicalMaterial` instances to capture the desired _classification key_. <<figure 6, Figure 6>> shows a few sample instances of the `Steel` class, with their _Code_ properties assigned to their _classification key_ according to the American Standards Organization ASTM International.
+Any instance in the <<BIS>> ecosystem, called _Element_, can optionally carry a human-friendly _business key_ that is unique in a certain context, and thus, it can be used as a form of identification. This special property of any <<BIS>> _Element_ is referred to as _Code_. The first approach can rely on the _Code_ property of `PhysicalMaterial` instances to capture the desired _classification key_. <<figure 6, Figure 6>> shows a few sample instances of the `Steel` class, with their _Code_ properties assigned to their _classification key_ according to ASTM International.
 
 [[figure-6]]
 .Sample Steel Instances with classification keys and descriptions
 image::figures/BIS_steel_codes.png[Steel Instances with classification codes]
 
-The <<BIS>> ecosystem contains a set of classes meant to capture _Classification Systems_ that can be used to provide parallel classifications to <<BIS>> instances. They can be used to capture a more complete representation of a _Classification System_, or to classify any <<BIS>> instance according to one or more _Classification Systems_ in parallel. <<figure 7, Figure 7>> shows the same `Steel` instances from <<figure 6, Figure 6>> but this time associated to more complete classification tables according to ASTM International, by using <<BIS>> _ClassificationSystems__ classes.
+The <<BIS>> ecosystem contains a set of classes meant to capture _Classification Systems_ that can be used to provide parallel classifications to <<BIS>> instances. They can be used to capture a more complete representation of a _Classification System_, or to classify any <<BIS>> instance according to two or more _Classification Systems_ in parallel. <<figure 7, Figure 7>> shows the same `Steel` instances from <<figure 6, Figure 6>> but this time associated to more complete classification tables according to ASTM International, by using <<BIS>> _ClassificationSystems__ classes.
 
 [[figure-7]]
 .Sample Steel Instances classified based on BIS ClassificationSystems classes
@@ -47,7 +47,8 @@ The second approach is the one applicable to material attribution. A BIS Element
 [[figure-8]]
 .Sample Steel Instances with Attribution via Element-Aspects
 image::figures/BIS_steel_attribution.png[Steel Attribution]
-The following table lists a sample such _Element-Aspect_ classes and their associated kinds of Simulations.
+
+The following table lists a sample of _Element-Aspect_ classes that capture specialized material attribution and their associated kinds of Simulations.
 
 [cols="4,4"]
 .Sample of _Element-Aspect_ classes that capture specialized material attributes with applicable Kinds of Simulations

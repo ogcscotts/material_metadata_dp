@@ -6,11 +6,7 @@
 = Bibliography
 
 * [[[ASTM,ASTM]]] ASTM International, https://www.astm.org/
+* [[[CityGML,CityGML]]] OGC City Geography Markup Language (CityGML) 3.0 Conceptual Model, https://docs.ogc.org/guides/20-066.pdf
 * [[[IFC,IFC]]] Industry Foundation Classes, IFC, https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/
 * [[[X3D,X3D]]] Extensible 3D, ISO 19775:2013, https://www.web3d.org/documents/specifications/19775-1/V3.3/Part01/X3D.html
-* [[[3D-Tiles, 3D Tiles]]] 3D Tiles Standard, OGC, https://www.ogc.org/publications/standard/3dtiles/
-
-* [[[SDWBP,SDWBP]]] W3C/OGC: Spatial Data on the Web Best Practices, W3C Working Group Note 28 September 2017, https://www.w3.org/TR/sdw-bp/
-* [[[DWBP,DWBP]]] W3C: Data on the Web Best Practices, W3C Recommendation 31 January 2017, https://www.w3.org/TR/dwbp/
-* [[[DCAT,DCAT]]] W3C: Data Catalog Vocabulary, W3C Recommendation 16 January 2014, https://www.w3.org/TR/vocab-dcat/
-* [[[link-relations,link-relations]]] IANA: Link Relation Types, https://www.iana.org/assignments/link-relations/link-relations.xml
+* [[[3D-Tiles, 3D Tiles]]] OGC 3D Tiles Standard Specification, https://www.ogc.org/publications/standard/3dtiles/
