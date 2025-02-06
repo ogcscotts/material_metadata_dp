@@ -13,7 +13,7 @@ The `IfcMaterial` class also includes a `Category` string-based attribute in ord
 
 [[figure-4]]
 .Sample IfcMaterial instances
-image::figures/IfcMaterial_steel_codes.png[IfcMaterial instances]
+image::figures/PT1_FIG04.png[IfcMaterial instances]
 
 <<IFC>> can optionally capture Material Classifications defined by International Standards as instances of https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcClassificationReference.htm[IfcClassificationReference], which can then be associated to `IfcMaterial` instances via https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcExternalReferenceRelationship.htm[IfcExternalReferenceRelationship]s. In that case, instances of `IfcClassificationReference` are expected to carry sufficient information to interpret material classification according to the names or classification keys defined by a specific Classification System.
 
@@ -25,7 +25,7 @@ image::figures/IfcMaterial_steel_codes.png[IfcMaterial instances]
 
 [[figure-5]]
 .Material Classification concepts in IFC
-image::figures/IfcMaterial_classes.png[IfcMaterial classes]
+image::figures/PT1_FIG05.png[IfcMaterial classes]
 
 <<figure-6, Figure 6>> shows an instance diagram with a sample of `IfcMaterial`s and their associations to `IfcClassificationReference`s.
 

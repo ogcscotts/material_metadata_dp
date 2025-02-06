@@ -44,11 +44,11 @@ The following GML snippet shows `WallSurface` data containing `Material_Name` an
 
 3D Tiles is an open standard, published by OGC, designed for streaming and rendering massive 3D geospatial content such as Photogrammetry, 3D Buildings, BIM/CAD, Instanced Features, and Point Clouds. It defines a hierarchical data structure and a set of tile formats which are used to efficiently manage and display 3D content, optimising performance by dynamically loading appropriate levels of detail.
 
-3D Tiles allows for the encoding of information associated to any level of its hierarchical data structure - including tile-set, tile, individual geometry and a pixel within it. 3D Tiles refers to associated information as _metadata_. <<figure-8, Figure 8>> shows an example of _metadata_ assigned at various granularities in a hierarchical tile structure.
+3D Tiles allows for the encoding of information associated to any level of its hierarchical data structure - including tile-set, tile, individual geometry and a pixel within it. 3D Tiles refers to associated information as _metadata_. <<figure-7, Figure 7>> shows an example of _metadata_ assigned at various granularities in a hierarchical tile structure.
 
-[[figure-6]]
+[[figure-7]]
 .Example metadata at various granularities in 3D Tiles
-image::figures/3dtiles_metadata-granularity-extended.png[Example metadata at various granularities in 3D Tiles]
+image::figures/PT1_FIG07.png[Example metadata at various granularities in 3D Tiles]
 
 ==== Materials in 3D Tiles
 
@@ -56,6 +56,8 @@ image::figures/3dtiles_metadata-granularity-extended.png[Example metadata at var
 
 Nevertheless, a specific implementation of 3D Tiles can capture material-related information by introducing it as application-specific attributes. The following class declaration snippet, encoded in JSON according to the 3D Tiles specification, shows the definition of a two string properties named `Material_Name` and `Material_Grade`, onto a class named `Column`.
 
+.Sample material properties added to a class for 3D Tiles, encoded in JSON
+[source, json]
 {
   "entity": {
     "class": "Column",

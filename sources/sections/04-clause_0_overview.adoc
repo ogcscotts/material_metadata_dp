@@ -9,17 +9,17 @@ For example, material information is key during the Design phase of an asset, di
 
 [[figure-1]]
 .Sample of a Bill of Materials with Cost estimation
-image::figures/bill_of_materials.png[Bill of Materials]
+image::figures/PT1_FIG01.png[Bill of Materials]
 
 Furthermore, specialized material information is required for any kind of Physics-based Simulations, which are commonly used by Architects and Engineers at various lifecycle phases of an asset. They enable predictions on their behavior under certain conditions. Structural, Thermal or Hydraulic Analyses are examples of Physics-based Simulations. <<figure-2, Figure 2>> and <<figure-3, Figure 3>> depict attribution needed for each material in order to run Structural or Hydralic Analyses.
 
 [[figure-2]]
 .Material properties needed for Structural Analysis
-image::figures/structural_analysis_props.png[Structural Analysis]
+image::figures/PT1_FIG02.png[Structural Analysis]
 
 [[figure-3]]
 .Material properties needed for Hydraulic Analysis
-image::figures/hydraulic_analysis_props.png[Hydraulic Analysis]
+image::figures/PT1_FIG03.png[Hydraulic Analysis]
 
 Material information is also part of other important tasks in Infrastructure Projects. An average project spanning the design, construction, operation or maintenance of an Infrastructure asset typically involves several multi-disciplinary teams that need to work sometimes in parallel, other times sequentially, while still keeping a high level of coordination of their efforts. Thus, Data Interoperability is crucial to enable the correct exchange of information among teams, while Data Validation is a necessity in order to ensure no errors are introduced during such processes.
 

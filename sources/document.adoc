@@ -56,4 +56,5 @@ include::sections/04-clause_3_bis.adoc[]
 
 include::sections/04-clause_4_granta.adoc[]
 
+<<<
 include::sections/annex_bibliography.adoc[]
