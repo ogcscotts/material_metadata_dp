@@ -13,3 +13,7 @@ DT:: Digital Twin
 IFC:: Industry Foundation Classes
 
 IoT:: Internet Of Things
+
+LOD:: Levels of Detail
+
+X3D:: Extensible 3D

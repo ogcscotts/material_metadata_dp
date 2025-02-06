@@ -42,15 +42,18 @@ include::sections/00-preface.adoc[]
 
 include::sections/01-normative-references.adoc[]
 
-include::sections/02-overview.adoc[]
+include::sections/02-terms_and_definitions.adoc[]
 
-include::sections/03-ifc.adoc[]
+include::sections/03-abbreviated-terms.adoc[]
 
-include::sections/04-citygml.adoc[]
+include::sections/04-clause_0_overview.adoc[]
 
-include::sections/05-bis.adoc[]
+include::sections/04-clause_1_ifc.adoc[]
 
-include::sections/06-granta.adoc[]
+include::sections/04-clause_2_other.adoc[]
 
-<<<
-include::annex_bibliography.adoc[]
+include::sections/04-clause_3_bis.adoc[]
+
+include::sections/04-clause_4_granta.adoc[]
+
+include::sections/annex_bibliography.adoc[]

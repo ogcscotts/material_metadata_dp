@@ -9,19 +9,29 @@ Its class hierarchy includes https://standards.buildingsmart.org/IFC/RELEASE/IFC
 
 Instances of `IfcMaterial` can be identified via its `Name` string-based attribute, which may be required to be unique in a project. This attribute is appropriate to capture material names at the level needed by Reporting use-cases, such as Bill of Materials. 
 
-The `IfcMaterial` class also includes a `Category` string-based attribute in order to capture a very general classification of materials. Examples include _concrete_, _steel_, _aluminum_, etc. Values in the `Category` attribute are not standardized by <<IFC>>.
+The `IfcMaterial` class also includes a `Category` string-based attribute in order to capture a very general classification of materials. Examples include _concrete_, _steel_, _aluminum_, etc. Values in the `Category` attribute are not standardized by <<IFC>>. <<figure 4, Figure 4>> shows an instance diagram with sample instances of `IfcMaterial` that capture various steel grades.
+
+[[figure-4]]
+.Sample IfcMaterial instances
+image::figures/IfcMaterial_steel_codes.png[IfcMaterial instances]
 
 <<IFC>> can optionally capture Material Classifications defined by International Standards as instances of https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcClassificationReference.htm[IfcClassificationReference], which can then be associated to `IfcMaterial` instances via https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcExternalReferenceRelationship.htm[IfcExternalReferenceRelationship]s. In that case, instances of `IfcClassificationReference` are expected to carry sufficient information to interpret material classification according to the names or classification keys defined by a specific Classification System.
 
-<<figure-4, Figure 4>> shows a class diagram summarizing the three approaches available in <<IFC>> for material classification:
+<<figure-5, Figure 5>> shows a class diagram summarizing the three approaches available in <<IFC>> for material classification:
 
 * IfcMaterial.Name
 * IfcMaterial.Category
 * IfcClassificationReference
 
-[[figure-4]]
+[[figure-5]]
 .Material Classification concepts in IFC
 image::figures/IfcMaterial_classes.png[IfcMaterial classes]
+
+<<figure-6, Figure 6>> shows an instance diagram with a sample of `IfcMaterial`s and their associations to `IfcClassificationReference`s.
+
+[[figure-6]]
+.Sample of Material Classification with IfcClassificationReferences
+image::figures/IfcMaterial_steel_classifications.png[IfcMaterials and IfcClassificationReferences]
 
 === Material Attribution
 
