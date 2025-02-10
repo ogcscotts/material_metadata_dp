@@ -16,4 +16,6 @@ IoT:: Internet Of Things
 
 LOD:: Levels of Detail
 
+MDM:: Materials Data Management
+
 X3D:: Extensible 3D

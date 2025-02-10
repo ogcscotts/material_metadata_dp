@@ -1,18 +1,18 @@
-= Discussion Paper for OGC (add title text)
+= Towards Material Metadata Standardization
 :comment: ### Document type; mandatory. Visit: https://www.metanorma.org/author/ogc/authoring/ for permitted types
 :doctype: discussion-paper
 :comment: ### Document status/stage; mandatory. Visit: https://www.metanorma.org/author/ogc/authoring/ for permitted types
-:status: published
+:status: draft
 :comment: ### Relevant committee; mandatory. The permitted types are: technical, planning, and strategic-member-advisory
 :committee: technical
 :comment: ### Internal reference number; mandatory
 :docnumber: 25-010
 :comment: ### Date on which the standard was updated; mandatory
-:received-date: 2025-03-15
+:received-date: 2025-02-13
 :comment: ### Date on which the standard was approved by the issuing authority; mandatory
-:issued-date: 2025-03-20
+:issued-date: 2025-02-13
 :comment: ### Date on which the standard was published; mandatory
-:published-date: 2025-03-31
+:published-date: 2025-03-03
 :comment: ###  Year when the copyright for the document was issued; optional
 :copyright-year: 2025
 :comment: ### External link referencing the document; optional. If not provided, a default value is created following this structure: "http://www.opengis.net/doc/{abbrevation of doctype}/{abbrev}/{version}"
@@ -20,19 +20,21 @@
 :comment: ### Author one
 :fullname: Diego Alexander Diaz Pabon
 :comment: ### Author two
+:comment: ### Role of the authors; optional. Supply only if correspoding author is an editor
+:role: editor
 :fullname_2: Andrew Miller
 :comment: ### Role of the authors; optional. Supply only if correspoding author is an editor
 :role_2: editor
 :comment: ### Comma delimited keywords; mandatory
 :keywords: ogcdoc, OGC document, physical material, ifc, bis, citygml, granta
 :comment: ### Semicolon-delimited list of the submitting organizations; mandatory
-:submitting-organizations: Bentley Systems; ANSYS
+:submitting-organizations: Bentley Systems, Inc; ANSYS
 :comment: ### Metanorma flavor; mandatory
 :mn-document-class: ogc
 :comment: ### Desired output formats; mandatory
 :mn-output-extensions: xml,html,doc,pdf,rxl
 :comment: ### Directory name used as prefix for the location of image files; optional
-:imagesdir: images
+:imagesdir: sections
 :comment: ### Enable local relaton cache for quick inclusion of prefetched references; optional. For further information, visit: https://www.metanorma.org/author/ref/document-attributes/#caches, https://www.metanorma.org/author/topics/building/reference-lookup/#lookup-result-caching
 :local-cache-only:
 
@@ -42,7 +44,7 @@ include::sections/00-preface.adoc[]
 
 include::sections/01-normative-references.adoc[]
 
-include::sections/02-terms_and_definitions.adoc[]
+//include::sections/02-terms_and_definitions.adoc[]
 
 include::sections/03-abbreviated-terms.adoc[]
 

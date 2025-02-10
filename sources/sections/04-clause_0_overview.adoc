@@ -1,4 +1,4 @@
-[[clause-reference]]
+[[overview]]
 == Overview
 
 Proper description of Materials used by Infrastructure projects is of great importance towards ensuring the reliability and soundness of the resulting assets. This is true across all lifecycle phases of an Infrastructure Asset, from Design and Construction all the way to Operation and Maintenance.
@@ -27,8 +27,7 @@ Advancements in AI and IoT have been raising the need for Infrastructure data to
 
 The following clauses present an overview of the state of the art of the modeling of materials in the international standards and software vendor technologies listed below:
 
-* <<IFC>> by buildingSMART
-* CityGML by OGC
-* 3D Tiles by OGC
-* Base Infrastructure Schemas, <<BIS>>, by Bentley Systems
-* Granta product-line by ANSYS
+* <<IFC, IFC>> by buildingSMART
+* CityGML and 3D Tiles by OGC
+* Base Infrastructure Schemas, <<BIS, BIS>>, by Bentley Systems
+* Granta MI by ANSYS

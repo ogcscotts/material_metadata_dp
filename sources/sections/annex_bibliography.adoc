@@ -6,6 +6,7 @@
 = Bibliography
 
 * [[[ASTM,ASTM]]] ASTM International, https://www.astm.org/
+* [[[BIS,BIS]]] Base Infrastructure Schemas (BIS), Bentley Systems, Inc., https://www.itwinjs.org/bis/guide/intro/overview/
 * [[[CityGML,CityGML]]] OGC City Geography Markup Language (CityGML) 3.0 Conceptual Model, https://docs.ogc.org/guides/20-066.pdf
 * [[[IFC,IFC]]] Industry Foundation Classes, IFC, https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/
 * [[[X3D,X3D]]] Extensible 3D, ISO 19775:2013, https://www.web3d.org/documents/specifications/19775-1/V3.3/Part01/X3D.html
