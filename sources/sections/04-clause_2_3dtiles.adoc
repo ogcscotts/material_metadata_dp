@@ -1,0 +1,29 @@
+== Materials in 3D Tiles
+
+=== Overview
+
+`3D Tiles` is an open standard, published by OGC, designed for streaming and rendering massive 3D geospatial content such as Photogrammetry, 3D Buildings, BIM/CAD, Instanced Features, and Point Clouds. It defines a hierarchical data structure and a set of tile formats which are used to efficiently manage and display 3D content, optimising performance by dynamically loading appropriate levels of detail.
+
+`3D Tiles` allows for the encoding of information associated to any level of its hierarchical data structure - including tile-set, tile, individual geometry and a pixel within it. `3D Tiles` refers to information associated to any of the levels of such hierarchy as _metadata_. <<figure-8, Figure 8>> shows an example of _metadata_ assigned at various granularities in a hierarchical tile structure.
+
+[[figure-8]]
+.Example metadata at various granularities in 3D Tiles
+image::figures/PT1_FIG08.png[Example metadata at various granularities in 3D Tiles]
+
+=== Materials in 3D Tiles
+
+`3D Tiles` can capture semantics behind any attribute, as part of its _metadata_. The `3D Tiles`` specification includes the standardization of some common semantics used by _metadata_ properties. However, at the time of this writing, such standardization of semantics has not included any classification or attribution of material information yet.
+
+Nevertheless, a specific implementation of `3D Tiles` can still capture material-related information by introducing it as application-specific attributes. The following class declaration snippet, encoded in JSON according to the `3D Tiles` specification, shows the definition of a two string properties named `Material_Name` and `Material_Grade`, onto a class named `Column`.
+
+.Sample material properties added to a class for 3D Tiles, encoded in JSON
+[source, json]
+{
+  "entity": {
+    "class": "Column",
+    "properties": {
+      "stringProperty": "Material_Name",
+      "stringProperty": "Material_Grade"
+    }
+  }
+}

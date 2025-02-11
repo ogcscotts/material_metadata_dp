@@ -4,8 +4,6 @@
 
 // Typical reference entries (without auto-fetch)
 // Reference content will display as written
-* [[[openapi,Open API Initiative]]], Open API Initiative: *OpenAPI Specification 3.0.2*, 2018 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md
-
 * [[[gmlsf,GMLSF]]], van den Brink, L., Portele, C., Vretanos, P.: OGC 10-100r3, *Geography Markup Language (GML) Simple Features Profile*, 2012 http://portal.opengeospatial.org/files/?artifact_id=42729
 
 * [[[html5,HTML5]]], W3C: *HTML5*, W3C Recommendation, 2019 http://www.w3.org/TR/html5/

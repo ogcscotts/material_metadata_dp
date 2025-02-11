@@ -8,7 +8,11 @@ BIM:: Building Information Modeling
 
 BIS:: Base Infrastructure Schemas
 
+BoM:: Bill of Material
+
 DT:: Digital Twin
+
+FSI:: Fluid Structure Interaction
 
 IFC:: Industry Foundation Classes
 
@@ -18,4 +22,8 @@ LOD:: Levels of Detail
 
 MDM:: Materials Data Management
 
-X3D:: Extensible 3D
+ML:: Machine-Learning
+
+SBR:: Shooting and Bouncing Ray
+
+//X3D:: Extensible 3D

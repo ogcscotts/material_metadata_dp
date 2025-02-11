@@ -6,35 +6,35 @@ Its class hierarchy includes https://standards.buildingsmart.org/IFC/RELEASE/IFC
 
 === Material Classification
 
-Instances of `IfcMaterial` can be identified via its `Name` string-based attribute, which may be required to be unique in a project. This attribute is appropriate to capture material names at the level needed by Reporting use-cases, such as Bill of Materials. 
+Instances of `IfcMaterial` can be identified via the class' `Name` string-based attribute, which may be required to be unique in a project. This attribute is appropriate to capture material names at the level needed by Reporting use-cases, such as Bill of Materials. 
 
-The `IfcMaterial` class also includes a `Category` string-based attribute in order to capture a very general classification of materials. Examples include _concrete_, _steel_, _aluminum_, etc. Values in the `Category` attribute are not standardized by <<IFC, IFC>>. <<figure-4, Figure 4>> shows an instance diagram with sample instances of `IfcMaterial` that capture various steel grades.
+The `IfcMaterial` class also includes a `Category` string-based attribute in order to capture a very general classification of materials. Examples include _concrete_, _steel_, _aluminum_, etc. Values in the `Category` attribute are not standardized by <<IFC, IFC>>. <<figure-5, Figure 5>> shows an instance diagram with sample instances of the `IfcMaterial` class that capture various steel grades.
 
-[[figure-4]]
+[[figure-5]]
 .Sample IfcMaterial instances
-image::figures/PT1_FIG04.png[IfcMaterial instances]
+image::figures/PT1_FIG05.png[IfcMaterial instances]
 
-<<IFC, IFC>> can optionally capture Material Classifications defined by International Standards as instances of https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcClassificationReference.htm[IfcClassificationReference], which can then be associated to `IfcMaterial` instances via https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcExternalReferenceRelationship.htm[IfcExternalReferenceRelationship]s. In that case, instances of `IfcClassificationReference` are expected to carry sufficient information to interpret material classification according to the names or classification keys defined by a specific Classification System.
+<<IFC, IFC>> can optionally capture Material Classifications defined by International Standards as instances of https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcClassificationReference.htm[IfcClassificationReference], which can then be associated to `IfcMaterial` instances via https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcExternalReferenceRelationship.htm[IfcExternalReferenceRelationship]s. In that case, instances of `IfcClassificationReference` are expected to carry sufficient information to interpret material classification according to the names or _classification keys_ defined by a specific Classification System.
 
-<<figure-5, Figure 5>> shows a class diagram summarizing the three approaches available in <<IFC, IFC>> for material classification:
+<<figure-6, Figure 6>> shows a class diagram summarizing the three approaches available in <<IFC, IFC>> for material classification:
 
 * IfcMaterial.Name
 * IfcMaterial.Category
 * IfcClassificationReference
 
-[[figure-5]]
-.Material Classification concepts in IFC
-image::figures/PT1_FIG05.png[IfcMaterial classes]
-
-<<figure-6, Figure 6>> shows an instance diagram with a sample of `IfcMaterial`s and their associations to `IfcClassificationReference`s.
-
 [[figure-6]]
+.Material Classification concepts in IFC
+image::figures/PT1_FIG06.png[IfcMaterial classes]
+
+<<figure-7, Figure 7>> shows an instance diagram with a sample of `IfcMaterial`s and their associations to `IfcClassificationReference`s.
+
+[[figure-7]]
 .Sample of Material Classification with IfcClassificationReferences
-image::figures/PT1_FIG06.png[IfcMaterials and IfcClassificationReferences]
+image::figures/PT1_FIG07.png[IfcMaterials and IfcClassificationReferences]
 
 === Material Attribution
 
-Specialized attribution associated to an instance of `IfcMaterial` can be captured via sets of material properties captured by an instance of the https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcMaterialProperties.htm[IfcMaterialProperties] class. <<IFC, IFC>> standardized several _Property Sets_ applicable to `IfcMaterial`s that are normally used in various kinds of Simulations. The following table lists a sample such _Property Sets_ and their associated kinds of Simulations.
+Specialized attribution associated to an instance of `IfcMaterial` are handled via sets of material properties captured by an instance of the https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcMaterialProperties.htm[IfcMaterialProperties] class. <<IFC, IFC>> standardized several _Property Sets_ applicable to `IfcMaterial`s that are normally used in various kinds of Simulations. The following table lists a sample such _Property Sets_ and their associated kinds of Simulations.
 
 [cols="4,4"]
 .Sample of _Property Sets_ that capture specialized material attributes with applicable Kinds of Simulations
@@ -48,4 +48,3 @@ Specialized attribution associated to an instance of `IfcMaterial` can be captur
 |Pset_MaterialThermal|Thermal Analysis
 |Pset_MaterialWater|Water-Quality Analysis
 |===
-

@@ -6,46 +6,26 @@ Granta MI is a commercial Materials Data Management (MDM) system by Ansys and ha
 
 === Material Classification
 
-As Granta MI is a database system, each material is represented as a record in the system. There are two methods to classify the materials:
+As Granta MI is a database system, each material is represented as a record in the system. There are two methods to classify materials:
 
 - Tree based hierarchy: A parent-child hierarchy of record groups can be defined allowing for a very flexible classification system that can be intuitive for users to navigate. This gives the flexibility to classify materials from many different material classes, e.g. metals, polymers, composites, and glasses where the method of classification can vary widely. However, this tree structure is more difficult to navigate and interrogate programmatically which is a requirement for seamless integration into digital engineering and digital twin workflows.
 
-[[figure-12]]
+[[figure-13]]
 .A typical hierarchical materials classification in Granta MI
-image::figures/PT1_FIG12.jpg[Material Classification in Granta MI]
+image::figures/PT1_FIG13.jpg[Material Classification in Granta MI]
 
 - Attribute based: Rather than a hierarchy, each material can be classified by a number of different attributes which by combination, will uniquely identify that material. These are the most common classes of attributes used to describe a material:
     * Composition: How the composition of a material is classified varies between material class. Metals are defined by elemental composition, polymers by polymer class and any reinforcements, fillers or additives, and concretes by cement, aggregates, additives and reinforcements.
-    * Form, Processing & Post-processing: The form of the material, such as sheet, tube, or fiber, is important for inclusion in BoMs, but can also have an impact on its properties. How the material is processed, or any post-processing steps, such as heat-treatment, can have a major impact on performance, but varies between material classes.
+    * Form, Processing & Post-processing: The form of the material, such as sheet, tube, or fiber, is important for inclusion in <<BoMs, BoMs>>, but can also have an impact on its properties. How the material is processed, or any post-processing steps, such as heat-treatment, can have a major impact on performance, but varies between material classes.
     * Performance: Some materials are classified by their properties or performance, for example the strength or hardness of a metal, the optical qualities of glass, or the thermal performance of insulation.
-    * Standards: Many industries define standards for the materials used, and can be a combination of composition, form and performance, and will often define the minimum requirements.
+    * Standards: Many industries define standards for the materials used, and can be a combination of composition, form and performance, and will often define minimum requirements.
 
-The use of these attributes means that the materials can easily be filtered and analysed by the user and programmatically. A tree hierarchy can also be built from these attributes giving flexibility in user experience. However, if you are classifying many different material classes, the number of attributes required will be large, leading to redundancy. Granta MI has a number of standard templates to classify materials, from a simple set of attributes which can be used across all material classes, to more complex sets for a detailed classification of a particular class of materials.
+The use of these attributes means that the materials can easily be filtered and analysed by the user and programmatically. A tree hierarchy can also be built from these attributes giving flexibility in user experience. However, when classifying many different material classes, the number of attributes required will be large, leading to redundancy. Granta MI has a number of standard templates to classify materials, from a simple set of attributes which can be used across all material classes, to more complex sets for a detailed classification of a particular class of materials.
 
-[[figure-13]]
+[[figure-14]]
 .A simple attribute-based classification system in Granta MI
-image::figures/PT1_FIG13.jpg[Material Attribution in Granta MI]
+image::figures/PT1_FIG14.jpg[Material Attribution in Granta MI]
 
 === Material Attribution
 
-The properties of the materials are captured in Attributes defined in the schema. Like most database systems, these attributes can be a number of different data-types, e.g. numerical, text, lists, files and images. As the system was developed specifically for engineering data, it has a number of complex data types that can be utilized such as tables, grids, data series, and mathematical expressions. This allows for a very flexible data structure, but for key use cases, preconfigured templates are available to promote best practice, standardization and interoperability. 
-
-The focus here will be limited to the downstream use of this data in engineering simulations:
-Structural: Structural integrity is a complex multicomponent, multiphysics challenge. With new materials empowering ever bolder designs, simulation is the only way to understand performance under normal and extreme loading conditions. Two examples are the loading of large structures under wind loading using Fluid Structure Interaction (FSI) simulations using Ansys Fluent and Ansys Mechanical, or the seismic analysis of structures under dynamic loading using Ansys LS-Dyna
-HVAC: Digital models of interior ventilation are used to maximize energy efficiency and occupant comfort and safety. The combination of fluid dynamics thermal analysis using Ansys Fluent can achieve this.
-Wireless Network & Radar Modeling: Radar and wireless communications designers face signal propagation challenges and automotive radar developers need accurate urban environment models to test system performance and safety, or generate synthetic data for AI/ML training. Applications such as Ansys Perceive EM can accurately model signal propagation in real-time through shooting and bouncing ray (SBR) technology.
-
-All of these physics-based simulations require accurate material properties and models to deliver accurate results. However, the simulation of each type of physics requires different types of material properties, and multi-physics applications require the consistent definition of materials across these domains.
-Some applications, such as linear structural analysis and thermal analysis require simple scaler material properties stored in a consistent unit system.
-
-[[figure-14]]
-.The definition of simple structural and thermal properties within Granta MI
-image::figures/PT1_FIG14.jpg[Structural and Thermal properties in Granta MI]
-
-Other, more advanced simulations, such as the effect of seismic loading may require more complex material models. For example, models which capture the hyperelastic behaviour of rubber based damping systems, or the complex failure models of reinforced concrete.
-
-[[figure-15]]
-.The definition of hyperelastic material models in Granta MI
-image::figures/PT1_FIG15.jpg[Hyperelastic materials in Granta MI]
-
-For other use cases, there are other factors which impact the perceived performance of the material which must be captured. For example, how electromagnetic waves interact with materials depends on the frequency of the waves so you may need different data for 5G signal analysis (<5 GHz) compared to automotive radar (~80GHz). Another influencing factor is the surface finish of the material so a polished Aluminum cladding versus a matt, textured one, or the surface roughness of asphalt.
+The properties of materials are captured in Attributes defined in the schema. Like most database systems, these attributes can be a number of different data-types, e.g. numerical, text, lists, files and images. As the system was developed specifically for engineering data, it has a number of complex data types that can be utilized such as tables, grids, data series, and mathematical expressions. This allows for a very flexible data structure, but for key use cases, preconfigured templates are available to promote best practice, standardization and interoperability.

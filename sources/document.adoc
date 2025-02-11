@@ -26,9 +26,9 @@
 :comment: ### Role of the authors; optional. Supply only if correspoding author is an editor
 :role_2: editor
 :comment: ### Comma delimited keywords; mandatory
-:keywords: ogcdoc, OGC document, physical material, ifc, bis, citygml, granta
+:keywords: ogcdoc, OGC document, physical material, ifc, bis, citygml, granta mi, 3d tiles
 :comment: ### Semicolon-delimited list of the submitting organizations; mandatory
-:submitting-organizations: Bentley Systems, Inc; ANSYS
+:submitting-organizations: Bentley Systems, Inc; Ansys
 :comment: ### Metanorma flavor; mandatory
 :mn-document-class: ogc
 :comment: ### Desired output formats; mandatory
@@ -52,11 +52,13 @@ include::sections/04-clause_0_overview.adoc[]
 
 include::sections/04-clause_1_ifc.adoc[]
 
-include::sections/04-clause_2_other.adoc[]
+include::sections/04-clause_2_3dtiles.adoc[]
 
 include::sections/04-clause_3_bis.adoc[]
 
 include::sections/04-clause_4_granta.adoc[]
+
+include::sections/05-clause_conclusion.adoc[]
 
 <<<
 include::sections/annex_bibliography.adoc[]
