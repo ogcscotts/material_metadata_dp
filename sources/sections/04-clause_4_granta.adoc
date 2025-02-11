@@ -16,7 +16,7 @@ image::figures/PT1_FIG13.jpg[Material Classification in Granta MI]
 
 - Attribute based: Rather than a hierarchy, each material can be classified by a number of different attributes which by combination, will uniquely identify that material. These are the most common classes of attributes used to describe a material:
     * Composition: How the composition of a material is classified varies between material class. Metals are defined by elemental composition, polymers by polymer class and any reinforcements, fillers or additives, and concretes by cement, aggregates, additives and reinforcements.
-    * Form, Processing & Post-processing: The form of the material, such as sheet, tube, or fiber, is important for inclusion in <<BoMs, BoMs>>, but can also have an impact on its properties. How the material is processed, or any post-processing steps, such as heat-treatment, can have a major impact on performance, but varies between material classes.
+    * Form, Processing & Post-processing: The form of the material, such as sheet, tube, or fiber, is important for inclusion in BoMs, but can also have an impact on its properties. How the material is processed, or any post-processing steps, such as heat-treatment, can have a major impact on performance, but varies between material classes.
     * Performance: Some materials are classified by their properties or performance, for example the strength or hardness of a metal, the optical qualities of glass, or the thermal performance of insulation.
     * Standards: Many industries define standards for the materials used, and can be a combination of composition, form and performance, and will often define minimum requirements.
 

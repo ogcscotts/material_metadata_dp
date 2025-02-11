@@ -2,11 +2,11 @@
 
 === Overview
 
-CityGML is an open standard, published by OGC, used for the storage and exchange of virtual 3D city models. CityGML allows the integration of urban geodata for use across a variety of applications, including urban and landscape planning; Urban Digital Twins for Smart Cities; the Metaverse; Building Information Modeling (<<BIM>>); mobile telecommunication; disaster management; 3D cadastre; tourism; vehicle & pedestrian navigation; autonomous driving and driving assistance; facility management; and energy, traffic, and environmental simulations. CityGML is useful for large areas and small regions, not just cities, and can represent real-world terrain and 3D objects at different Levels Of Detail (<<LOD, LOD>>) simultaneously.
+CityGML is an open standard, published by OGC, used for the storage and exchange of virtual 3D city models. CityGML allows the integration of urban geodata for use across a variety of applications, including urban and landscape planning; Urban Digital Twins for Smart Cities; the Metaverse; Building Information Modeling (BIM); mobile telecommunication; disaster management; 3D cadastre; tourism; vehicle & pedestrian navigation; autonomous driving and driving assistance; facility management; and energy, traffic, and environmental simulations. CityGML is useful for large areas and small regions, not just cities, and can represent real-world terrain and 3D objects at different Levels Of Detail (LOD) simultaneously.
 
 === Materials in CityGML
 
-Referring specifically to materials, CityGML has standardized concepts to capture how surfaces of objects look like - their appearance. It has added support for various formats, including standards such as <<X3D>> and COLLADA. However, at the time of this writing, CityGML has not standardized any semantical classification of materials or associated attributions into its base model yet.
+Referring specifically to materials, CityGML has standardized concepts to capture how surfaces of objects look like - their appearance. It has added support for various formats, including standards such as X3D and COLLADA. However, at the time of this writing, CityGML has not standardized any semantical classification of materials or associated attributions into its base model yet.
 
 Nevertheless, a specific implementation of CityGML can capture material-related information by introducing it as application-specific attribution on top of base CityGML concepts. The following XML schema snippet shows the declaration of an extension of `WallSurface` in the underlying CityGML Building model with two custom string properties named `Material_Name` and `Material_Grade`.
 

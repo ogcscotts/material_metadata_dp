@@ -16,7 +16,7 @@
 :comment: ###  Year when the copyright for the document was issued; optional
 :copyright-year: 2025
 :comment: ### External link referencing the document; optional. If not provided, a default value is created following this structure: "http://www.opengis.net/doc/{abbrevation of doctype}/{abbrev}/{version}"
-:external-id: http://www.opengis.net/doc/PER/t12-A063
+//:external-id: http://www.opengis.net/doc/PER/t12-A063
 :comment: ### Author one
 :fullname: Diego Alexander Diaz Pabon
 :comment: ### Author two

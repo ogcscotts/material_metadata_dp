@@ -8,7 +8,7 @@ BIM:: Building Information Modeling
 
 BIS:: Base Infrastructure Schemas
 
-BoM:: Bill of Material
+BoMs:: Bill of Materials
 
 DT:: Digital Twin
 
