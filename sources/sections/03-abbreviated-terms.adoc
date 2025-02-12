@@ -18,8 +18,6 @@ IFC:: Industry Foundation Classes
 
 IoT:: Internet Of Things
 
-LOD:: Levels of Detail
-
 MDM:: Materials Data Management
 
 ML:: Machine-Learning
