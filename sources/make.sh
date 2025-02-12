@@ -1,1 +1,1 @@
-metanorma -t ogc 25-010.adoc
+metanorma -t ogc 25-006.adoc

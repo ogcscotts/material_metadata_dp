@@ -14,6 +14,8 @@ DT:: Digital Twin
 
 FSI:: Fluid Structure Interaction
 
+glTF:: GL Transmission Format
+
 IFC:: Industry Foundation Classes
 
 IoT:: Internet Of Things
@@ -21,6 +23,8 @@ IoT:: Internet Of Things
 MDM:: Materials Data Management
 
 ML:: Machine-Learning
+
+PBR:: Physically-Based Rendering
 
 SBR:: Shooting and Bouncing Ray
 

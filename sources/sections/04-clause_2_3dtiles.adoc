@@ -12,7 +12,7 @@ image::figures/PT1_FIG08.png[Example metadata at various granularities in 3D Til
 
 === Materials in 3D Tiles
 
-`3D Tiles` can capture semantics behind any attribute, as part of its _metadata_. The `3D Tiles` specification includes the standardization of some common semantics used by _metadata_ properties. However, at the time of this writing, such standardization of semantics has not included any classification or attribution of material information yet.
+Referring specifically to materials, `3D Tiles` can deliver photorealistic visuals by using Physically-Based Rendering (PBR) footnote:[PBR is implemented by GL Transmission Format (glTF) used in `3D Tiles`]. Moreover, `3D Tiles` can capture semantics behind any attribute, as part of its _metadata_. The `3D Tiles` specification includes the standardization of some common semantics used by _metadata_ properties. However, at the time of this writing, such standardization of semantics has not included any classification or attribution of material information yet.
 
 Nevertheless, a specific implementation of `3D Tiles` can still capture material-related information by introducing it as application-specific attributes. The following class declaration snippet, encoded in JSON according to the `3D Tiles` specification, shows the definition of a two string properties named `Material_Name` and `Material_Grade`, onto a class named `Column`.
 
