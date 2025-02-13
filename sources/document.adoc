@@ -8,7 +8,7 @@
 :comment: ### Internal reference number; mandatory
 :docnumber: 25-006
 :comment: ### Date on which the standard was updated; mandatory
-:received-date: 2025-02-12
+:received-date: 2025-02-13
 :comment: ### Date on which the standard was approved by the issuing authority; mandatory
 :issued-date: 2025-02-13
 :comment: ### Date on which the standard was published; mandatory
