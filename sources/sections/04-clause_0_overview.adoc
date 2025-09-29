@@ -19,7 +19,7 @@ Specialized material information is required for any kind of Physics-based Simul
 .The definition of simple structural and thermal properties within Granta MI
 image::figures/PT1_FIG02.jpg[Structural and Thermal properties in Granta MI]
 
-Other, more advanced simulations, such as the effect of seismic loading may require more complex material models. For example, models which capture the hyperelastic behaviour of rubber based damping systems, or the complex failure models of reinforced concrete.
+Other, more advanced simulations, such as the effect of seismic loading may require more complex material models. For example, models which capture the hyperelastic behavior of rubber based damping systems, or the complex failure models of reinforced concrete.
 
 [[figure-3]]
 .The definition of hyperelastic material models in Granta MI
@@ -29,7 +29,7 @@ image::figures/PT1_FIG03.jpg[Hyperelastic materials in Granta MI]
 
 - Radar and wireless communications designers face signal propagation challenges and automotive radar developers need accurate urban environment models to test system performance and safety, or to generate synthetic data for AI/ML training. footnote:[Software products such as Ansys Perceive EM can accurately model signal propagation in real-time through Shooting and Bouncing Ray (SBR) technology].
 
--  Water distribution and Stormwater networks, as well as drainage systems in any Infrastrure Asset, are examples of Hydraulic Systems. Their design requires executing simulations based on fluid mechanics in order to analyze the behavior of the Hydraulic System under various conditions. Specialized attribution of the materials of the components in contact with the modeled fluid are an important input to Hydraulic Analysis. <<figure-4, Figure 4>> depicts attribution needed for each material in order to execute an Hydralic Analysis footnote:[Bentley's OpenFlows offerings are examples of software products capable of executing hydraulic analysis].
+-  Water distribution and Stormwater networks, as well as drainage systems in any Infrastructure Asset, are examples of Hydraulic Systems. Their design requires executing simulations based on fluid mechanics in order to analyze the behavior of the Hydraulic System under various conditions. Specialized attribution of the materials of the components in contact with the modeled fluid are an important input to Hydraulic Analysis. <<figure-4, Figure 4>> depicts attribution needed for each material in order to execute an Hydraulic Analysis footnote:[Bentley's OpenFlows offerings are examples of software products capable of executing hydraulic analysis].
 
 [[figure-4]]
 .Material properties needed for Hydraulic Analysis

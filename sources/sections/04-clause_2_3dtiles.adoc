@@ -2,7 +2,7 @@
 
 === Overview
 
-`3D Tiles` is an open standard, published by OGC, designed for streaming and rendering massive 3D geospatial content such as Photogrammetry, 3D Buildings, BIM/CAD, Instanced Features, and Point Clouds. It defines a hierarchical data structure and a set of tile formats which are used to efficiently manage and display 3D content, optimising performance by dynamically loading appropriate levels of detail.
+`3D Tiles` is an open standard, published by OGC, designed for streaming and rendering massive 3D geospatial content such as Photogrammetry, 3D Buildings, BIM/CAD, Instanced Features, and Point Clouds. It defines a hierarchical data structure and a set of tile formats which are used to efficiently manage and display 3D content, optimizing performance by dynamically loading appropriate levels of detail.
 
 `3D Tiles` allows for the encoding of information associated to any level of its hierarchical data structure - including tile-set, tile, individual geometry and a pixel within it. `3D Tiles` refers to information associated to any of the levels of such hierarchy as _metadata_. <<figure-8, Figure 8>> shows an example of _metadata_ assigned at various granularities in a hierarchical tile structure.
 

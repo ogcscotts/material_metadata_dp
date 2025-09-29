@@ -1,6 +1,6 @@
 == Materials in IFC
 
-Industry Foundation Classes IFC are a set of standardized, digital descriptions of the built asset industry. It is an open, global standard published under a Creative Commons license, and as ISO 16739. IFC provides machine interpretability of information and thereby enables automation of workflows. IFC is developed by buildingSMART.
+Industry Foundation Classes IFC are a set of standardized, digital descriptions of the built asset industry. It is an open, global standard published under a Creative Commons license, and as ISO 16739. IFC provides machine interoperability of information and thereby enables automation of workflows. IFC is developed by buildingSMART.
 
 Its class hierarchy includes https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/lexical/IfcMaterial.htm[IfcMaterial], whose instances represent "_a homogeneous or inhomogeneous substance that can be used to form elements (physical products or their components)_".
 

@@ -4,7 +4,7 @@ BIS stands for Base Infrastructure Schemas. It is an ecosystem of modular schema
 
 BIS models Materials with two parallel concepts, as follows:
 
-- Render Material: captures the rendering properties of materials for display purposes.
+- Render Material: captures the rendering properties of materials for display purposes; and
 - Physical Material: focuses on describing the matter of which physical objects are made of.
 
 Thus, BIS' https://www.itwinjs.org/bis/guide/physical-perspective/physical-materials/[Physical Material] is the concept relevant for the main topic of this discussion paper. 
@@ -19,7 +19,7 @@ image::figures/PT1_FIG09.png[BIS Physical Material classes]
 
 BIS uses the `PhysicalMaterial` class-hierarchy to encode a general classification of materials that can be understood by machines. More specific classifications can be captured in BIS via one of the following two approaches:
 
-1. By capturing _well known names_ or _classification keys_ as `Codes` of the instances of any concrete `PhysicalMaterial` sub-class.
+1. By capturing _well known names_ or _classification keys_ as `Codes` of the instances of any concrete `PhysicalMaterial` sub-class; or
 1. By capturing _well known names_ or _classification keys_ in instances of the `Classification` class that are associated with corresponding `PhysicalMaterial` instances.
 
 Any instance in the BIS ecosystem, called _Element_, can optionally carry a human-friendly _business key_ that is unique in a certain context, and thus, it can be used as a form of identification. This special property of any BIS _Element_ is referred to as _Code_. The first approach listed above relies on the _Code_ property of `PhysicalMaterial` instances to capture the desired _classification key_. <<figure-10, Figure 10>> shows a few sample instances of the `Steel` class, with their _Code_ properties assigned to their _classification key_ according to ASTM International.
